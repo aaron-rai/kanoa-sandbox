@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "a09d38639b024e560fde24cf418062eb",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "kanoa white.png"
+  ],
+  "attributes": {
+    "width": 88,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "size": 0,
+    "lastModificationSignature": "6f8e9fb2911ff230cff514aaf8769559f5d5d4093ee7d231576c4191d0dff693",
+    "height": 83
+  }
+}

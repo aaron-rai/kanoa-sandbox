@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "5d1cbbd56865691752f19dda728c5858",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "SAP logo.png"
+  ],
+  "attributes": {
+    "width": 416,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "size": 0,
+    "lastModificationSignature": "6fd2118a6f308dc1837419438b6bc015a35eb47d2c195b57a8a914e835623675",
+    "height": 205
+  }
+}

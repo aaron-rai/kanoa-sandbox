@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "4bd0d808e7b199a5f6b1b5d578d04b68",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "primary_logo_google.png"
+  ],
+  "attributes": {
+    "width": 320,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "size": 0,
+    "lastModificationSignature": "f3b328cc3ce77408b62d25b4faa4dc3d14773ce8e665cc912c6017b588cadd5f",
+    "height": 90
+  }
+}

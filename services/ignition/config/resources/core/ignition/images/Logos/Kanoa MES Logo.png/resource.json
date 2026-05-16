@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "ad86d1379d7dac9e6b127abd0d127cb9",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Kanoa MES Logo.png"
+  ],
+  "attributes": {
+    "width": 256,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "size": 0,
+    "lastModificationSignature": "490a8af7f79a23e322005215e70c360b1997361b6a232d9e9830b9273ff21e39",
+    "height": 256
+  }
+}

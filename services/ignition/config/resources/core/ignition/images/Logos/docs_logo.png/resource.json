@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "d4aa19e4ec6089aab6593f1794814585",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "docs_logo.png"
+  ],
+  "attributes": {
+    "width": 477,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "size": 0,
+    "lastModificationSignature": "cb66bddf5a44336889bc41c4f0dbf800f68f0f4e7331c8bcda42a4e11eacde56",
+    "height": 66
+  }
+}

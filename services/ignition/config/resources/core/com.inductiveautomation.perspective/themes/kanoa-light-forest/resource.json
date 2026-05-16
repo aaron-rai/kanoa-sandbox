@@ -1,0 +1,19 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json",
+    "kanoa-light-forest.css",
+    "variables.css"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "Kanoa MES",
+      "timestamp": "2026-05-16T00:17:14Z"
+    },
+    "uuid": "8d1517b1-a312-425a-ac13-96ca147c91df",
+    "lastModificationSignature": "cd7c1e9f6e57da21f857c8c00cefe840f17d324aa4846ab319270f2c39458a61"
+  }
+}

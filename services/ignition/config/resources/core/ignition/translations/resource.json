@@ -1,0 +1,26 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "it.json",
+    "zh.json",
+    "es.json",
+    "fr.json",
+    "de.json",
+    "en.json",
+    "ko.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:24Z"
+    },
+    "ignorePunctuation": false,
+    "caseInsensitive": false,
+    "lastModificationSignature": "4eeaf98e199e949958c818b9fc934ddb2f98c42abde15e4c4e87ba0ceb70acb1",
+    "ignoreWhitespace": false,
+    "ignoreTags": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json",
+    "kanoa-dark.css",
+    "variables.css"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "Kanoa MES",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "uuid": "30fa4049-edef-4b6d-b16b-b384042b2247",
+    "lastModificationSignature": "b509ca4ce842fc5d550e5f0d551ca9c2c2f44e72ffb7b9bd5e700d3c484014fd"
+  }
+}

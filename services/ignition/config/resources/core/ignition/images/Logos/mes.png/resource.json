@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "843f1910d5b21533a8a6f276c262ffb2",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "mes.png"
+  ],
+  "attributes": {
+    "width": 103,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "size": 0,
+    "lastModificationSignature": "9bed7f8e7906d998503d0c14ff33eddd2ce891150d6d3b87f5f4f63e22b6263c",
+    "height": 39
+  }
+}

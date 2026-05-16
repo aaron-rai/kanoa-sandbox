@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "4de72f0778cefaa2b82fbd85daa292f5",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "quality_logo_white.png"
+  ],
+  "attributes": {
+    "width": 892,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "size": 0,
+    "lastModificationSignature": "f81268ab1d30326cd5e620eebb811e5995d0b4fb241465935491c0cc90fb08a5",
+    "height": 126
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "connectURL": "jdbc:sqlserver://mssql\\MSSQLSERVER:1433",
+  "connectionProps": "databaseName\u003dkanoa",
+  "connectionResetParams": "",
+  "defaultTransactionLevel": "DEFAULT",
+  "driver": "Microsoft SQLServer",
+  "evictionRate": -1,
+  "evictionTests": 3,
+  "evictionTime": 1800000,
+  "failoverMode": "STANDARD",
+  "failoverProfile": "",
+  "includeSchemaInTableName": true,
+  "password": {
+    "data": {
+      "ciphertext": "_XehRTBlsdN2x-tV",
+      "encrypted_key": "xRDGqDgT_QuTs_CtEGeyjQnxU9MMOyqRCL9g-PRV07FOOTAThMiUfw",
+      "iv": "aPrsNZ6ogIfwLROv",
+      "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzc4ODEwNzkzLCJ6aXAiOiJERUYifQ",
+      "tag": "dTJKM5-xg3iROBqJknJgVg"
+    },
+    "type": "Embedded"
+  },
+  "poolInitSize": 0,
+  "poolMaxActive": -1,
+  "poolMaxIdle": 8,
+  "poolMaxWait": 5000,
+  "poolMinIdle": 0,
+  "slowQueryLogThreshold": 60000,
+  "testOnBorrow": true,
+  "testOnReturn": false,
+  "testWhileIdle": false,
+  "translator": "MSSQL",
+  "username": "kanoa",
+  "validationQuery": "SELECT 1",
+  "validationSleepTime": 10000
+}

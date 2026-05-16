@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "99a3c8ce46a544e8f9afc788efc9246e",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Kanoa Logo_White Transparent.png"
+  ],
+  "attributes": {
+    "width": 500,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "size": 0,
+    "lastModificationSignature": "c02e026cb0ccb902a997cfc2ed3a32d49a16ce99cce65e3e03af2e160ea39d98",
+    "height": 500
+  }
+}

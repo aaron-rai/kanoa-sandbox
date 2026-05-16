@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "4ee250aa59dc8c13ff18b35264dfabac",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Kanoa Logo 25 Revised.png"
+  ],
+  "attributes": {
+    "width": 125,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "size": 0,
+    "lastModificationSignature": "a4225d1143c8740117881f9480aaa43d551767553da556f26f6d13aa7c8f349d",
+    "height": 125
+  }
+}

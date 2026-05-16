@@ -1,0 +1,19 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json",
+    "kanoa-light-grape.css",
+    "variables.css"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "Kanoa MES",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "uuid": "b20fe638-3daa-4662-9e01-8803c8ccc387",
+    "lastModificationSignature": "118d2073de049c3f6e20e413066724123f9ffa642d3d1c2ab521dcd449f5a846"
+  }
+}

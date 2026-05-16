@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "63c07ee89a9a5fcf75849bd2f3e974bf",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "quality_icon_white.png"
+  ],
+  "attributes": {
+    "width": 300,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-05-16T00:17:15Z"
+    },
+    "size": 0,
+    "lastModificationSignature": "9c90336530b34c5434da1df780a9401808ad4947851ecf028ed0224663cae9f1",
+    "height": 260
+  }
+}

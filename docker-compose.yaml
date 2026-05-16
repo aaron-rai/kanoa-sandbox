@@ -1,0 +1,66 @@
+---
+services:
+  gateway:
+    image: inductiveautomation/ignition:8.3.6
+    volumes:
+      - ./services/ignition/config:/usr/local/bin/ignition/data/config
+      - ./services/ignition/projects:/usr/local/bin/ignition/data/projects
+      - ./services/third-party-modules/BIJC_Calendar_Component_v1.83.1.modl:/usr/local/bin/ignition/user-lib/modules/BIJC_Calendar_Component_v1.83.1.modl
+      - ./services/third-party-modules/Embr-Charts-Ignition83-3.1.0.modl:/usr/local/bin/ignition/user-lib/modules/Embr-Charts-Ignition83-3.1.0.modl
+      - ./services/third-party-modules/KanoaMES_83_1.14.8.modl:/usr/local/bin/ignition/user-lib/modules/KanoaMES_83_1.14.8.modl
+      # Read only mounting commissioning.json to prevent write back
+      - ./services/ignition/commissioning.json:/usr/local/bin/ignition/data/commissioning.json:ro
+    environment:
+      IGNITION_EDITION: "standard"
+      DISABLE_QUICKSTART: "true"
+      ACCEPT_IGNITION_EULA: "Y"
+      ACCEPT_MODULE_LICENSES: uk.co.bijc.bijccalendar, com.mussonindustrial.embr.charts, com.kanoacon.mes.kanoaMES
+      ACCEPT_MODULE_CERTS: uk.co.bijc.bijccalendar, com.mussonindustrial.embr.charts, com.kanoacon.mes.kanoaMES
+    command: >
+      -n kanoa-mes
+    labels:
+      dev.orbstack.http-port: "8088"
+    networks:
+      - default
+
+  database:
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    hostname: mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: P@ssword1!
+      MSSQL_PID: Developer
+    healthcheck:
+      test: ["CMD", "/bin/bash", "-c", "echo > /dev/tcp/localhost/1433"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 15s
+    labels:
+      dev.orbstack.http-port: "1433"
+    networks:
+      - default
+
+  db-init:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
+    depends_on:
+      database:
+        condition: service_healthy
+    volumes:
+      - ./services/mssql/init-sql:/init-sql
+    environment:
+      MSSQL_SA_PASSWORD: P@ssword1!
+    command: >
+      /bin/bash -c "
+      for f in /init-sql/*.sql; do
+        echo \"Running $$f\";
+        /opt/mssql-tools18/bin/sqlcmd -S database -U sa -P \"$$MSSQL_SA_PASSWORD\" -d master -i \"$$f\" -C || \
+        /opt/mssql-tools/bin/sqlcmd -S database -U sa -P \"$$MSSQL_SA_PASSWORD\" -d master -i \"$$f\" -C;
+      done"
+    restart: "no"
+    networks:
+      - default
+
+networks:
+  default:
