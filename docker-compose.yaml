@@ -18,6 +18,8 @@ services:
       ACCEPT_MODULE_CERTS: uk.co.bijc.bijccalendar, com.mussonindustrial.embr.charts, com.kanoacon.mes.kanoaMES
     command: >
       -n kanoa-mes
+      --
+      -Dperspective.websocket.max-message-size=4096
     labels:
       dev.orbstack.http-port: "8088"
     networks:
